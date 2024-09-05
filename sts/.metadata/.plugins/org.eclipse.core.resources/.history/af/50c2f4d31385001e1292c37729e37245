@@ -1,0 +1,21 @@
+package com.nani.www.utility;
+
+import java.util.List;
+
+import com.nani.www.entity.BankAccountTransaction;
+
+public class BankStatementDownloader {
+	private List<BankAccountTransaction> transaction;
+	private String startDate;
+	private String endDate;
+	public BankStatementDownloader(List<BankAccountTransaction> transaction, String startDate, String endDate) {
+		
+		this.transaction = transaction;
+		this.startDate = startDate;
+		this.endDate = endDate;
+	}
+	
+	
+	
+
+}

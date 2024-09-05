@@ -1,0 +1,51 @@
+package com.nani.www.utility;
+
+import java.awt.Color;
+import java.util.List;
+
+import com.lowagie.text.Font;
+import com.lowagie.text.FontFactory;
+import com.lowagie.text.Phrase;
+import com.lowagie.text.pdf.PdfPCell;
+import com.lowagie.text.pdf.PdfPTable;
+import com.nani.www.entity.BankAccountTransaction;
+
+public class BankStatementDownloader {
+	private List<BankAccountTransaction> transaction;
+	private String startDate;
+	private String endDate;
+	public BankStatementDownloader(List<BankAccountTransaction> transaction, String startDate, String endDate) {
+		
+		this.transaction = transaction;
+		this.startDate = startDate;
+		this.endDate = endDate;
+	}
+	private void writeTableHeader(PdfPTable table)
+	{
+		PdfPCell cell=new PdfPCell();
+		cell.setBackgroundColor(new Color(253,100,120));
+		cell.setPadding(5);
+		Font font=FontFactory.getFont(FontFactory.HELVETICA);
+		font.setColor(new Color(27,39,40));
+		cell.setPhrase(new Phrase("TransactionId",font));
+		table.addCell(cell);
+		cell.setPhrase(new Phrase("TransactionType",font));
+		table.addCell(cell);
+		cell.setPhrase(new Phrase("Amount",font));
+		table.addCell(cell);
+		cell.setPhrase(new Phrase("Narration",font));
+		table.addCell(cell);
+		cell.setPhrase(new Phrase("BankFactoryAccount",font));
+		table.addCell(cell);
+		cell.setPhrase(new Phrase("TransactionTime",font));
+		table.addCell(cell);
+			
+		
+		
+		
+		
+	}
+	
+	
+
+}

@@ -1,0 +1,20 @@
+package com.nani.www.dto;
+
+public class UserLoginResponse extends CommonApiResponse{
+private String user;
+	private String jwtToken;
+	public String getUser() {
+		return user;
+	}
+	public void setUser(String user) {
+		this.user = user;
+	}
+	public String getJwtToken() {
+		return jwtToken;
+	}
+	public void setJwtToken(String jwtToken) {
+		this.jwtToken = jwtToken;
+	}
+	
+
+}

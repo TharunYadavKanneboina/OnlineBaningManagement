@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.nani.www.resourse&apos; to &apos;com.nani.www.resource&apos;&#x0D;&#x0A;- Original project: &apos;bankingapplication&apos;&#x0D;&#x0A;- Original element: &apos;bankingapplication/src/main/java/com.nani.www.resourse&apos;&#x0D;&#x0A;- Renamed element: &apos;bankingapplication/src/main/java/com.nani.www.resource&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.nani.www.resourse&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.nani.www.resourse" name="com.nani.www.resource" qualified="false" references="true" stamp="1698989004944" textual="false" version="1.0"/>
+</session>

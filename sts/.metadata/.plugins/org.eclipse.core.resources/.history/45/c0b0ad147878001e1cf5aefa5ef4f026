@@ -1,0 +1,5 @@
+package com.nani.www.dto;
+
+public class AddBankAccountRequestDto {
+
+}

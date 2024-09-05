@@ -1,0 +1,8 @@
+package com.nani.www.dto;
+
+public class CommonApiResponse {
+	private String responseMessage;
+	private String isSuccess;
+	
+
+}

@@ -1,0 +1,11 @@
+package com.nani.www.dto;
+
+public class AddBankAccountRequestDto extends CommonApiResponse {
+	private int number;
+	private String ifscCode;
+	private String type;
+	private long bankId;
+	private int userId;
+	
+
+}
